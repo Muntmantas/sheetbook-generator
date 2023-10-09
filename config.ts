@@ -20,7 +20,7 @@ export const TEMP_OPTIONS: TmpNameOptions = {
 export const MIN_PULL_INTERVAL = 60;
 
 /** URL of the sheetbook Git repository. */
-export const SHEETBOOK_REPO = 'https://github.com/rhythms-of-resistance/sheetbook.git';
+export const SHEETBOOK_REPO = 'https://github.com/Muntmantas/ror_vln_sheetbook.git';
 
 /** Git branch of the sheetbook repository to use. */
 export const MAIN_BRANCH = 'develop';

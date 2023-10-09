@@ -26,7 +26,7 @@ export async function convertOdToPdf(inFile: string[] | string, outDir: string):
  * @param outFile The path of the PDF file to be generated
  */
 export async function convertSvgToPdf(inFile: string, outFile: string): Promise<void> {
-    await $`inkscape ${inFile} --export-filename=${outFile} --export-type=pdf`;
+    await $`inkscape ${inFile} -A=${outFile}`;
 }
 
 /**
