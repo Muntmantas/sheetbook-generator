@@ -46,7 +46,7 @@ export const GENERATE_SHEET_TIMEOUT = 600;
 
 
 /** Tunes that should always be placed first, regardless of their alphabetical order. */
-export const TUNES_BEFORE = ['history', 'network', 'cultural-appropriation-summary', 'player', 'breaks', 'breaks_large'];
+export const TUNES_BEFORE = ['history', 'network', 'cultural-appropriation-summary', 'player', 'breaks', 'breaks_short', 'breaks_large'];
 
 /** Tunes that should always be placed last, regardless of their alphabetical order. */
 export const TUNES_AFTER = ['dances', 'cultural-appropriation-booklet'];
@@ -83,6 +83,7 @@ export const TUNE_DISPLAY_NAME = (tuneName: string): string => (
         'cultural-appropriation-summary': 'Cultural Appropriation',
         'player': 'RoR Player & Tube',
         'breaks_large': 'Breaks (large)',
+	'breaks_short' : 'Breaks (short)',
         'afoxe': 'Afoxé',
         'bhangra': 'Bhaṅgṛā',
         'coupe-decale': 'Coupé-Décalé',
